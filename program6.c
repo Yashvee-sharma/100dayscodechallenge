@@ -21,5 +21,10 @@ int main(){
     scanf("%d", &a);
     printf("Enter your second number: ");
     scanf("%d", &b);
-    
+    printf("Before swap: %d %d\n", a, b);
+    c = a;
+    a = b;
+    b = c;
+    printf("After swap: %d %d\n", a,b);
+    return 0;
 }
